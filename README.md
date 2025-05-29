@@ -13,3 +13,7 @@ Python
 Streamlit
 qrcode
 io (for in-memory image handling)
+
+How to Run:
+To run this file > open the folder where the file is saved then open bash and type:
+streamlit run Qr.py hit enter 
