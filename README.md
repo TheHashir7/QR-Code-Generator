@@ -1,18 +1,21 @@
 🔗 QR Code Generator using Streamlit
 
-This is a simple web app built with Streamlit and Python that allows users to generate QR codes from any URL or text input.
+A modern, interactive **QR Code Generator** built using **Streamlit**. Customize your QR with colors, add logos and download high-quality QR images.
 
  Features:
-Generate high-quality QR codes instantly
-Easy-to-use interface with Streamlit
+Generate QR codes for **URLs**, **text**, or **WhatsApp numbers**
+Choose **QR color** and **background color**
+Upload and embed a **logo** (PNG or JPG) in the center of the QR
 Download the generated QR code as a PNG file
 Responsive and clean layout
 
 Technologies Used:
-Python
-Streamlit
-qrcode
-io (for in-memory image handling)
+Technology	     Purpose
+Python	        Core programming language
+Streamlit     	Web app framework for building the UI
+qrcode	QR      code generation logic
+Pillow (PIL)  	Image processing (for embedding logos)
+io (standard) 	In-memory image handling for download
 
 How to Run:
 To run this file > open the folder where the file is saved then open bash and type:
